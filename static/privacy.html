@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — UTE</title>
+<style>
+body{font-family:'Segoe UI',sans-serif;background:#0f0f11;color:#e8e8ec;max-width:760px;margin:0 auto;padding:2.5rem 1.5rem;line-height:1.75}
+h1{color:#f59e0b;font-size:1.6rem;margin-bottom:.3rem}
+.sub{color:#a0a0ac;font-size:.85rem;margin-bottom:2.5rem}
+h2{color:#e8e8ec;font-size:1.05rem;margin:2rem 0 .5rem;border-bottom:1px solid #242428;padding-bottom:.3rem}
+p{color:#a0a0ac;margin-bottom:.9rem;font-size:.93rem}
+ul{color:#a0a0ac;padding-left:1.4rem;margin-bottom:.9rem;font-size:.93rem}
+li{margin:.3rem 0}
+a{color:#f59e0b;text-decoration:none}
+a:hover{text-decoration:underline}
+.back{display:inline-flex;align-items:center;gap:.4rem;color:#a0a0ac;font-size:.82rem;margin-bottom:2rem;text-decoration:none}
+.back:hover{color:#e8e8ec}
+.table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.88rem}
+.table th{text-align:left;background:#16161a;color:#e8e8ec;padding:.5rem .7rem;border:1px solid #242428}
+.table td{padding:.45rem .7rem;border:1px solid #242428;color:#a0a0ac;vertical-align:top}
+</style>
+</head>
+<body>
+<a class="back" href="/">← Back to UTE</a>
+<h1>Privacy Policy</h1>
+<div class="sub">Last updated: May 2026 · We keep this simple and honest.</div>
+
+<h2>What we collect</h2>
+<table class="table">
+  <tr><th>Data</th><th>Why</th><th>How long</th></tr>
+  <tr><td>Email address</td><td>Account login and communication</td><td>Until account deletion</td></tr>
+  <tr><td>Name</td><td>Display in UI</td><td>Until account deletion</td></tr>
+  <tr><td>Password (hashed)</td><td>Authentication — we never store plaintext</td><td>Until account deletion</td></tr>
+  <tr><td>Queries and responses</td><td>Chat history (Pro tier only)</td><td>Until you delete them</td></tr>
+  <tr><td>Usage count</td><td>Enforcing free tier limits</td><td>Rolling 24 hours</td></tr>
+  <tr><td>Session tokens</td><td>Keeping you logged in</td><td>30 days</td></tr>
+</table>
+
+<h2>What we do NOT collect</h2>
+<ul>
+  <li>We do not track your behaviour outside UTE</li>
+  <li>We do not use cookies beyond the session token</li>
+  <li>We do not run analytics or advertising trackers</li>
+  <li>We do not sell or share your data with third parties</li>
+</ul>
+
+<h2>Third-party services</h2>
+<p>Your queries are sent to <strong>Anthropic's Claude API</strong> to generate responses. Anthropic's own privacy policy applies to that processing. We do not store your queries on Anthropic's behalf — they are processed in real time and the response is returned to you.</p>
+<p>UTE is hosted on <strong>Railway</strong> (railway.app). Their infrastructure privacy policy applies to hosting.</p>
+
+<h2>Chat history</h2>
+<p>If you are on the Pro tier, your queries and UTE responses are stored in our database so you can access them later. You can delete any chat at any time from the sidebar. Deleting a chat permanently removes it from our database.</p>
+<p>Free tier users' queries are not stored beyond the current session.</p>
+
+<h2>Data security</h2>
+<p>Passwords are never stored in plaintext — we use HMAC-SHA256 with a per-user random salt. Session tokens are cryptographically random 64-character hex strings. All data is stored in SQLite on Railway's infrastructure.</p>
+
+<h2>Your rights</h2>
+<p>You can:</p>
+<ul>
+  <li>Delete your chat history at any time from the sidebar</li>
+  <li>Request deletion of your account and all associated data by emailing <a href="mailto:privacy@ute.ai">privacy@ute.ai</a></li>
+  <li>Request a copy of your data by emailing us</li>
+</ul>
+
+<h2>Children</h2>
+<p>UTE is not intended for children under 13. We do not knowingly collect data from children under 13.</p>
+
+<h2>Changes</h2>
+<p>We will update this policy if our practices change. The date at the top of this page reflects the last update. Continued use after changes constitutes acceptance.</p>
+
+<h2>Contact</h2>
+<p>Privacy questions: <a href="mailto:privacy@ute.ai">privacy@ute.ai</a></p>
+
+</body>
+</html>

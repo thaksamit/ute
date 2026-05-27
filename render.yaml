@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ute
+    runtime: python
+    buildCommand: echo "No build needed"
+    startCommand: python3 server.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false        # you set this in Render dashboard
+      - key: PORT
+        value: 10000
